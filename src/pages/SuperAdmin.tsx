@@ -309,7 +309,7 @@ export default function DashboardLayout() {
                           fill="#8884d8"
                           label
                         >
-                          {stats.userDistribution.map((entry, index) => (
+                          {stats.userDistribution.map((_, index) => (
                             <Cell
                               key={`cell-${index}`}
                               fill={
